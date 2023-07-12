@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: aliceblue;
+    background-color: black;
+    
+}
+.logo{
+    font-size: 45px;
+    font-weight: 800;
+}
+.logotittle{
+    color: red;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+nav li{
+    font-size: 18px;
+    border: 7px 7px;
+    border-radius: 10px;
+    padding: 7px 10px;
+    color: rgb(44, 38, 38);
+    background-color: white;
+    cursor: pointer;
+}
+nav li:hover{
+    color: black;
+    background-color: aqua;
+}
