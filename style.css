@@ -3,21 +3,60 @@
    padding: 0px;
    background: #FFF;
 }
-.logo-img{
+header ul img{
     width: 30px;
     height: 29.26px;
 
 }
-.header{
+header{
     display: flex;
     justify-content: space-around;
-    margin: 15px;
+    margin: 20px;
 }
-.navbar{
+header ul{
     display: flex;
     gap: 30px;
 }
-.logo{
-    font-size: 28px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.profile-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 150px;
+    
+}
+.profile-img img{
+    width: 329px;
+    height: 329px;
+    border-radius: 230px;
+    
+}
+.Profile-title{
+    color: var(--solid-heading, #42446E);
+    font-family: Poppins;
+    font-size: 3.8rem;
+    font-style: normal;
+    font-weight: 700; 
+}
+
+/* for Mobile        */
+
+@media screen and (max-width : 576px) {
+    .profile-container{
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    .Profile-title{
+        padding: 30px;
+        font-size: 2rem;
+    }
+}
+/* for Tablet        */
+@media screen and (max-width : 960px) and (min-width : 576px) {
+    .profile-container{
+        margin-top: 150px;
+    }
+    .Profile-title{
+        padding: 30px;
+        font-size: 2rem;
+    }
 }
